@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#section{  
+     height: 400px;
+    width: 100%;
+      background-image: url("https://live.staticflickr.com/5085/5375714302_03c18ef267_b.jpg")
+      
+
+}
+#name{
+    font-size: 3em;
+    color: black;
+    
+    
+}
+#div{
+    height: 400px;
+    width: 100%;
+    background-color: rgba(254,251, 210, 0.5);
+
+}
