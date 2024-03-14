@@ -1,63 +1,135 @@
-* {
-    margin: 0px;
-}
-
-header {
+#hea{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
-#k {
-    height: 25px;
-    width: 25px;
-    border: solid thin black;
-    border-radius: 100%;
-    padding-left: 12.5px;
-    padding-bottom: 3px;
-    background-color: rgb(150, 54, 153);
-    color: white;
-}
 
-#search {
-    width: 800px;
-    height: 20px
-}
 
-#menu {
-    height: 90vh;
-    width: 15%;
-    border-right: solid thin black;
-    color: white;
-    background-color: black;
 
-}
-
-#screen {
-
-    width: 85vh;
-    height: 80vh;
-    margin-top: 10px;
-
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
-}
-   .div{
-    background-color: white;
-    height: 300px;
-}
-
-#full {
+#main{
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: center;
+}
+#div{
+    margin-top: 140px;
+    margin-right: 180px;
+    
+
+}
+#div1{
+    margin-top: 100px;
+    margin-left: 130px;
+
+}
+#hello{
+    background-image: linear-gradient(to right,purple,pink,rgba(255, 192, 203, 0.429));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#hire{
+     background-color: yellow;
+}
+#foot{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+#about{
+    display: flex;
+    justify-content: center;
+
+}
+#p1{
+    size: 100px;
+}
+#intro{
+    display: flex;
+    justify-content: center;
+}
+#go{
+    display: flex;
+    justify-content: center;
+
+}
+#mai{
+    margin-right: 200px;
+}
+ 
+#certi{
+    display: flex;
+}
+
+#year,#comp,#client{
+    margin: 20px;
+}
+#bu{
+    color: white;
+    background-color: purple;
+}
+#sec{
+    justify-content: center;
+}
+#qu{
+    display: flex;
+    justify-content: center;
+}
+#ed{
+    display: flex;
+}
+#class{
+    margin-left: 60px;
+}
+#class2{
+margin-left: 80px;
+}
+#skill{
+    display: flex;
+    margin-top: 80px;
+}
+.prog{
+
+    height: 200px;
+    width: 200px;
+    box-shadow: 10px 10px 50px gray;
+    margin: 10px;
+  display: flex;
+}
+#measu{
+    display: flex;
+    margin-top: 100px;
+
+}
+#average{
+height: 30px;
+width: 50px;
+margin-left: 70px;
 
 }
 
-#menu {
-    overflow-y: auto;
-}
 
-.menu {
-    border-bottom: solid thin white;
+    
+.aveerage{
+margin-left: 70px;
 
-}
+   }
+
+#averaage{
+    margin-left: 400px;
+    }
+
+.averaagee{
+    margin-left: 400px;
+ ;
+   
+ }
+#hr1,#hr2,#hr3,#hr4,#hr5,#hr6{
+    width: 200px;
+    height: 6px;
+ }
+ #hr1,#hr2,#hr3{
+    margin-left: 70px;
+ }
+ #hr4,#hr5,#hr6{
+    margin-left: 400px;
+ }
+ 
