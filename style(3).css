@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+}
+body{
+display:flex;
+overflow:hidden;
+}
+#avtar{
+position:relative;
+overflow:hidden;
+}
+aside{
+   flex :5.17;
+    border:thin solid black;
+ height:80vh;
+}
+
+
+#icon1{
+    font-size: 44px;
+}
+    
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    border-bottom: thin solid #E1D9D1;
+    padding: 10px 16px;
+background-color:#E1D9D1;
+	
+}
+
+#div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#icon2,#icon3,#icon4,#icon5,#icon6{
+    font-size: 20px;
+    padding: 10px 16px;
+}
+input{
+    height: 30px;
+    width: 435px;
+   margin:5px 5px;
+    border-radius: 20px;
+background-color:white;
+
+
+}
+#input{
+border-bottom:solid thin gray;
+height: 40px;
+width:100%;
+background-color:white;
+display:flex;
+align-items:center;
+}
+.contact{
+height: 40px;
+border-bottom:solid gray thin;
+padding:10px 16px;
+background-color:black;
+color:white;
+
+
+
+}    
+p{transform:translateX(57px) translateY(-40px);
+}
+#icon7{
+color:yellow;
+}
+#time{
+transform:translateX(350px) translateY(-80px);
+}
+
+#header{
+ display: flex;
+justify-content:space-between;
+    height: 40px;
+
+    border: thin solid black;
+    padding: 10px 16px;
+background-color:#E1D9D1;
+}
+section{
+flex:12;
+border:solid black thin;
+background-image:url("cartoon1.jpg");
+}
+h2{
+transform:translateX(-860px) translateY(10px);
+}
+#main{
+height:73vh;
+width:100%;
+border-bottom:black thin solid;
+}
+footer{
+height:61px;
+
+padding:10px 16px;
+background-color:#E1D9D1;
+border:solid thin black;
+}
+#name{
+transform:translateY(2px);
+}
+#div2{
+padding:20px 20px;
+margin-right:10px;
+margin-left:10px;
+}
+img{
+height:73vh;
+width:99.7%;
+border:black thin solid;
+}
+
+#content{
+height:100vh;
+overflow-y:scroll;
+overflow-x:hidden;
+position:relative;
+}
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: white;
+    border-radius: 5px;
+
+}
+
+::-webkit-scrollbar-thumb {
+   
+    background-color:gray;
+    border-radius: 5px;
+}
+
+#content:hover{
+overflow-y:scroll;
+}
+

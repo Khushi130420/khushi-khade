@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: black;
+    color: white;
+}
 #section{  
      height: 400px;
     width: 100%;
@@ -20,4 +24,34 @@
     width: 100%;
     background-color: rgba(254,251, 210, 0.5);
 
+}
+#clg{
+    margin-top: 100px;
+    width: 700px;
+    height: 30px;
+    border: solid thin  white;
+}
+#clg1{
+    width: 700px;
+    height: 200px;
+    border: solid thin white;
+}
+#hee{
+    display: flex;
+}
+#fi{
+    color: rgb(231, 210, 20);
+}
+#map{
+    height: 200px;
+    width: 240px;
+    margin-top: 100pxSss;
+}
+#o{
+    color: green;
+}
+#bb{
+ 
+    font-size: 1.3em;
+    color: blueviolet;
 }
