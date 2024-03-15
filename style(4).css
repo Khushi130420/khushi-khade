@@ -25,6 +25,7 @@
     background-image: linear-gradient(to right,purple,pink,rgba(255, 192, 203, 0.429));
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 2.0em;
 }
 #hire{
      background-color: yellow;
@@ -175,11 +176,16 @@ width: 400px;
     width: 300px;
     font-size: 1.5em;
 }
-#wel{
+#well{
     margin-top: 100px;
-    margin-left: 400px;
+    margin-left: 200px;
+   display: flex;
+}
+#wel,#we{
     height: 200px;
     width: 250px;
     border: solid thin black;
 }
-
+#we{
+    margin-left: 250px;
+}
